@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DeepSpeechTestJava</string>
+    <string name="tflitemodel">tflitemodel</string>
+    <string name="audiofile">audiofile</string>
+    <string name="textview">TextView</string>
+    <string name="start">start</string>
+</resources>

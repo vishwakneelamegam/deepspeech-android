@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/tfliteModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tflitemodel" />
+    <EditText
+        android:id="@+id/audioFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/audiofile" />
+
+    <TextView
+        android:id="@+id/decodedString"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/textview" />
+
+    <TextView
+        android:id="@+id/tfliteStatus"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="@string/textview" />
+
+    <Button
+        android:id="@+id/btnStartInference"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/start" />
+</LinearLayout>
